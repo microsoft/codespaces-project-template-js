@@ -4,7 +4,8 @@
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:prettier/recommended",
-    "plugin:jsx-a11y/recommended"
+    "plugin:jsx-a11y/recommended",
+    "plugin:prettier/recommended"
   ],
   "plugins": ["react", "prettier", "jsx-a11y"],
   "parserOptions": {
