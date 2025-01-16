@@ -123,3 +123,26 @@ img.socialIcon {
   height: 30px;
   width: 30px;
 }
+
+/* Add a slide-in-left animation */
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Animation for the image */
+.animated-image {
+  animation: slideInLeft 1s ease-out;
+}
+
+/* Animation for the project boxes */
+.container .box {
+  animation: slideInLeft 1s ease-in-out;
+  margin-bottom: 1.5rem; /* Adds spacing between boxes */
+}
